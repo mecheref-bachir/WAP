@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(184, 94, 87)
+}
+
+#name {
+    color: maroon;
+}
+
+h1 {
+    color: mintcream;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #FF0000;
+}
+
+a:hover {
+    color: #FF00FF;
+}
+
+
+/* selected link */
+
+a:active {
+    color: #0000FF;
+}
+
+p::first-letter {
+    float: left;
+    font-size: 30px;
+    line-height: 1;
+    font-weight: bold;
+    margin-right: 9px;
+}
+
+dt {
+    color: yellow;
+}

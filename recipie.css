@@ -1,0 +1,41 @@
+main{
+margin: auto;
+width: 70vw;
+background-image: url(./images/silverware.jpg);
+padding: 10px;
+}
+
+body{
+    background-color: black;
+}
+#centered {
+ text-align: center;  
+
+}
+
+h2,h1{
+text-decoration: underline;
+color: darkgreen;
+}
+
+
+
+.title{
+background-color: rgba(240, 241, 243, 0.993);
+
+}
+.paragraph{
+
+  background-color: rgb(236, 202, 12);  
+  
+ 
+  
+}
+
+#leftspacing{
+
+    width: 90%;
+    margin: auto;
+    padding: 50px;
+
+}
