@@ -1,0 +1,110 @@
+body{
+
+    background-image: url(./images/movie/background.png);
+    margin: 0px;
+    padding: 0px;
+}
+
+#header{
+   margin: 0px; 
+   text-align: center;
+   height: 50px;
+}
+.repeatedImage{
+    width: 275px;
+    height: 50px;
+    margin: 0px;
+    padding:0px;
+   background-image: url(./images/movie/bannerbg.png);
+    display:inline-block;
+    
+}
+
+
+h1{
+text-align: center; 
+}
+
+main{
+width:800px;
+padding: 0px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 0;
+border: 5px solid gray;
+border-radius: 20px;
+border-width: 4px;
+overflow: hidden; 
+}
+#overview{
+
+margin: 0px;
+
+}
+#discription{
+    background-color:#A2B964;
+    padding: 10pt; 
+    margin: 0px;  
+}
+#mainright{
+     width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    float: right;
+   
+   
+}
+#mainleft{
+width: 550px;
+margin: 0px;
+padding: 0px;
+float: left;
+
+
+
+}
+#paragraphs{
+    column-count: 2;
+    column-gap: 2px;
+   
+}
+
+
+.review{
+border: 5px solid gray;
+border-radius: 10px;
+border-width: 2px;
+background-color: #E8DC9B;
+margin-left: 5px;
+margin-right: 5px;
+padding: 4px;
+}
+
+#footer{
+    position: relative;
+    
+    background-color:#A2B964;
+    text-align: center;
+    padding: 0px;
+    margin-top: 178px;
+    margin-bottom: 0px;
+    
+    
+}
+#validation{
+    position: fixed;
+    bottom: 2px;
+    right: 2px;
+}
+
+
+#mecheref{
+   width: 452px;
+   height: 83px;
+   margin: 0px;
+   padding:0px;
+   background-image: url(./images/movie/rbg.png);
+   display:inline-block;
+}
