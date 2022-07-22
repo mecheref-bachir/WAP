@@ -1,0 +1,52 @@
+body{
+    background-image: url(./images/movie/background.png);
+}
+
+h1{
+    text-align: center;
+    background-color: chartreuse;
+}
+form{
+width: 700px;
+height: 400px;
+margin: auto;
+background-color: aqua;
+border: 4px solid gray;
+border-radius: 15px;
+
+}
+#nameinfo{
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+}
+
+.select{
+   margin: 30px;
+   
+}
+
+
+
+
+#submit{
+width: 100px;
+margin-top: 30px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+#checkboxinput{
+
+    margin-left: 20px;
+}
+
+#validation{
+    position: fixed;
+    bottom: 2px;
+    right: 2px;
+}

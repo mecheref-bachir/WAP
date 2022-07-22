@@ -1,0 +1,64 @@
+body{
+background-image: url(./images/movie/background.png);
+}
+
+main{
+width: 700px;
+height: 300px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+border: 5px solid gray ;
+border-style: double;
+border-radius: 7px;
+padding: 30px;
+}
+
+form{
+
+width: 600px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+padding-left: 100px;
+}
+
+#submit{
+width: 200px;
+margin-top: 70px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+#title{
+    position: fixed;
+    top: 75px;
+    left: 310px;
+    border: 3px solid gray;
+    border-radius: 4px;
+    background-color: aqua;
+    padding: 5px;;
+}
+.rightlabel{
+width: 170px;
+display: inline-block;
+
+}
+#logo,#footer{
+width: 750px;
+margin:auto;
+padding: 0px;
+}
+
+#back{
+    width: 50pt;
+    height: 50pt;
+}
+
+#validation{
+    position: fixed;
+    bottom: 3px;
+    right: 3px;
+    
+}

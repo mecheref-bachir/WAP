@@ -9,13 +9,14 @@ body{
    margin: 0px; 
    text-align: center;
    height: 50px;
+   overflow: hidden;
 }
 .repeatedImage{
     width: 275px;
     height: 50px;
     margin: 0px;
     padding:0px;
-   background-image: url(./images/movie/bannerbg.png);
+    background-image: url(./images/movie/bannerbg.png);
     display:inline-block;
     
 }
@@ -44,7 +45,8 @@ margin: 0px;
 #discription{
     background-color:#A2B964;
     padding: 10pt; 
-    margin: 0px;  
+    margin:0px;  
+  
 }
 #mainright{
      width: 250px;
@@ -77,10 +79,12 @@ border: 5px solid gray;
 border-radius: 10px;
 border-width: 2px;
 background-color: #E8DC9B;
+margin-top: 0px;
 margin-left: 5px;
 margin-right: 5px;
 padding: 4px;
 }
+
 
 #footer{
     position: relative;
@@ -88,7 +92,7 @@ padding: 4px;
     background-color:#A2B964;
     text-align: center;
     padding: 0px;
-    margin-top: 178px;
+    margin-top: 168px;
     margin-bottom: 0px;
     
     
@@ -100,11 +104,11 @@ padding: 4px;
 }
 
 
-#mecheref{
-   width: 452px;
-   height: 83px;
-   margin: 0px;
-   padding:0px;
-   background-image: url(./images/movie/rbg.png);
-   display:inline-block;
-}
+
+
+#posterHeader{
+    font-size: 48pt;
+    color: red;
+    font-weight: bold;
+    background-image: url("./images/movie/rbg.png");
+  }
