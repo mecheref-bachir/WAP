@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="jsquestions.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Javascript Questions</h1>
+   
+    <fieldset>
+<legend>Question 1</legend>
+1. What is the difference between the following 2 statements? <br>
+a: setTimeout(booyah, 2000);<br>
+b: setTimeout(booyah(), 2000); <br>
+Answer :<br>
+a: the first one is a callback function so it will call boyaah function after two seconds. <br>
+ b:The second one is an immediate call to the function.
+    </fieldset>
+    <fieldset>
+        <legend>Question 2</legend>
+        2. What do the following 2 alerts display (answer without running the code)?<br>
+         var myfunc = function(a, x) { return a * x; };<br>
+          var x = myfunc(2, 3);<br> 
+          var y = myfunc; <br>
+          alert(x); <br>
+          alert(y(2,3)); <br>
+         Answer:<br>
+         The result is 6 for both.
+    </fieldset>
+            <fieldset>
+                <legend>Question 3</legend>
+                3. Write functions booyah1 and booyah2 so that in both cases below, an alert box comes up after 2 seconds that says “BOOYAH!” <br>
+                setTimeout(booyah1, 2000);<br>
+                 setTimeout(booyah2(), 2000); <br>
+                 Answer:<br>
+                 setTimeout ( booyah1 , 2000 ); <br>
+                 setTimeout ( booyah2 (), 2000 ); <br>
+                 function booyah1 () { alert ( "BOOYAH! 1" );}<br>
+                 function booyah2 () { setTimeout ( function () { alert ( "BOOYAH! 2" ); }, 2000 ); } 
+            </fieldset>
+                    <fieldset>
+                        <legend>Question 4</legend>
+                        4. What is "Unobtrusive Javascript"? What is the practical application of Unobtrusive Javascript (and the reasons for using it)?<br>
+                        Answer: <br>
+                        "Unobtrusive Javascript" means separating HTML files from javascript files (separate behavior from content) <br>
+                        The web page will work fine if there is a problem of browser inconsistency. <br>
+                        or if a user  disable javascript.
+                    </fieldset>
+  
+</body>
+</html>

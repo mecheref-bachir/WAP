@@ -1,0 +1,9 @@
+body{
+    background-image: url("./images/movie/background.png");
+    padding: 50px;
+}
+legend{
+
+  font-weight: bold;
+  text-decoration: brown;
+}
