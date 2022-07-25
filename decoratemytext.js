@@ -53,7 +53,7 @@ arr[index]='Malkovitch';
 
 }
 
-alert(arr[0]);
+
 
 
 for (let index = 0; index < arr.length; index++) {
