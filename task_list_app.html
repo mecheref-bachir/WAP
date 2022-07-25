@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task_list_app.css">
+    <script>
+
+    function addTask(){
+    
+    var task=document.getElementById("input").value;
+    if(task===''){
+      return;
+    }
+    var list =document.getElementById("taskList").innerHTML;
+    var newLine='\n';
+    if(list===""){
+    document.getElementById("taskList").innerHTML=task;
+    localStorage.setItem("myList", document.getElementById("taskList").innerHTML);
+  }else{
+    document.getElementById("taskList").innerHTML=list  + newLine + task;
+    localStorage.setItem("myList", document.getElementById("taskList").innerHTML);
+  }
+  document.getElementById("input").value='';
+    }
+
+  function clearStorage(){
+localStorage.clear();
+document.getElementById("taskList").innerHTML='';
+document.getElementById("input").value='';
+
+
+  }
+
+  window.onload= function loadTaextarea(){
+    document.getElementById("taskList").innerHTML=localStorage.getItem("myList");
+
+};
+
+
+
+
+    </script>
+</head>
+<body>
+    <main>
+<h1>Task List</h1>
+<div class="col">
+Task: <br><input type="text" id="input"><br>
+<button id="addTaskButton" onclick="addTask();">Add Task</button><br>
+<button id="clearTasksButton" onclick="clearStorage();">Clear Tasks</button><br>
+</div>
+<div class="col">
+Tast List:<br><textarea id="taskList"></textarea>
+</div>
+    </main>
+</body>
+
+</html>
