@@ -45,11 +45,13 @@ const update = function () {
 
         if (arr[index].accountholder == text) {
             let val = parseInt(amount);
-            if (val > arr[index].deposit) {
+            let current=parseInt(arr[index].deposit);
+            if (val > current) {
                 alert("insufficient balance"); 
                 return;
             } else {
-                arr[index].deposit -= val;
+                current -= val;
+                arr[index].deposit=current;
                 localStorage.setItem("data", JSON.stringify(arr));
                 alert("debit succeful");
                 alert(arr[index].deposit);

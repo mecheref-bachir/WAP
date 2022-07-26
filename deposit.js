@@ -44,8 +44,9 @@ const update = function () {
 
         if (arr[index].accountholder == text) {
             let val = parseInt(amount);
-         
-                arr[index].deposit += val;
+            let current=parseInt(arr[index].deposit);
+                 current += val;
+                 arr[index].deposit=current;
                 localStorage.setItem("data", JSON.stringify(arr));
                 alert("deposit succefful");
                 alert(arr[index].deposit);
