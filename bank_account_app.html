@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank account aplication</title>
+    <link rel="stylesheet" href="bank_account_app.css">
+    <script type="text/javascript" src="bankaccount.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Bank account aplication</h1>
+    </header>
+    <main>
+        <div id="maindiv">
+            <div>
+                <label for="selector">Account name: </label>
+                <select name="selector" id="selector">
+                    <option value="Business">Business</option>
+                    <option value="Checking">Checking</option>
+                    <option value="Saving">Saving</option>
+                </select> 
+            </div>
+            <div>
+                <label for="input">Deposite: </label>
+                <input type="text" id="deposit">
+            </div>
+            <div>
+                <label for="input">Name:  </label>
+                <input type="text" id="a">
+            </div>
+        </div>
+
+        <div id="button">
+            <button id="btn">Create new account</button><br>
+        </div>
+        <div id="textarea">
+            <textarea  id="display" cols="80" rows="10"></textarea>
+        </div>
+
+        <div id="opt">
+           <a href="accountdeposit.html"> <button id="deposit">Deposit</button></a>
+           <a href="accountdebit.html"><button id="debit">Debit</button></a>
+           <button id="clear">Clear all</button>
+        </div>
+    </main>
+</body>
+
+</html>
