@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Quiz2</title>
+    <link href="jsquestions.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <h1>jQuery Quiz 02</h1>
+    <fieldset>
+        <legend>Question 1</legend>
+        <pre>
+               
+
+            //code fragment 1 
+            $("li").each(function(idx, e) { 
+             $(e).css(“color”, “yellow”); }); 
+
+            //code fragment 2 
+            $("li").each(function() { 
+             $(this).css(“color”, “yellow”); }); 
+
+            //code fragment 3 
+            $("li").each(function(idx) { 
+             $(this).css(“color”, “yellow”); });
+            
+            
+            
+           all of them are equivalent
+fragment 01:
+a callback take optional parameter idx and e (element) that is used to access li element
+
+fragment 02: 
+uses the this keyword for the current li element 
+
+fragement 03:
+uses the this keyword for the current li element , idx is an optional parameter
+
+        </pre>
+    </fieldset>
+    <fieldset>
+        <legend>Question 2</legend>
+        <pre>
+ HTML:
+
+ &lt;div>no ul here </div>
+ &lt;div>
+ This does contain a ul.
+ &lt;ul&gt;
+ &lt;li&gt;the first item&lt;/li&gt;
+ &lt;li&gt;the second item&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/div&gt;
+
+
+ &lt;script&gt;
+ &lt;!— JQUERY to find all divs on a page that include an unordered list in them - - &gt;
+$("div ul").css("color","blue");
+&lt;/script&gt;
+&lt;/body&gt;
+</pre>
+    </fieldset>
+    <fieldset>
+        <legend>Question 3</legend>
+        <pre>
+ jQuery to append :&lt;div&gt;&lt;h1&gt;JQuery Core&lt;/h1&gt;&lt;/div&gt; into a body of html page
+&lt;script&gt;
+$("body").append("&lt;div&gt&lt;h1&gt;JQuery Core&lt;/h1&gt;&lt;/div&gt;");
+&lt;script&gt;
+                 </pre>
+    </fieldset>
+</body>
+
+</html>
